@@ -1,9 +1,16 @@
 from capitalize import capitalize
 
-if capitalize('hello') != 'Hello':
-    raise Exception('Функция работает неверно!')
+assert capitalize('hello') == 'Hello'
 
-if capitalize('') != '':
-    raise Exception('Функция работает неверно!')
+assert capitalize('') == ''
 
+
+# if get({'hello': 'world'}, 'hello') != 'world':
+#     raise Exception('wrong!!!')
+#
+# if get({}, 'hello', 'kitty') != 'kitty':
+#     raise Exception('wrong!!!')
+#
+# if get({"hello": "world"}, "hello", "kitty") != 'world':
+#     raise Exception('wrong!!!')
 print('Все тесты пройдены!')

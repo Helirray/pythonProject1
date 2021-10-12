@@ -67,3 +67,6 @@ def contains_origin(rectangle):
     d = get_right_bottom(rectangle)
     return get_quadrant(a) == 2 and get_quadrant(d) == 4
 
+
+def s():
+    pass
